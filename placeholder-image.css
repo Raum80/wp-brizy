@@ -1,0 +1,16 @@
+/* URL of your placeholder image in the media library */
+.brz-picture.brz-d-block {
+    background-color: transparent !important;
+    background-image: url("https://yourdomain.com/wp-content/uploads/2021/02/placeholder.jpg") !important; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+  }
+
+
+/* Minimizes the original placeholder image. Just change the domain, not the whole URL */
+  IMG[src="https://your-domain.com/wp-content/plugins/brizy-pro/public/images/no-image.png"]
+  {
+    width: 0px !important;
+    height: 0px !important;
+  }
